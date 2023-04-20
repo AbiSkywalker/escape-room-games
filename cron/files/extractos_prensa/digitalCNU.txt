@@ -1,0 +1,9 @@
+<h2>La verdad descubierta: directivos de Cron destrozados</h2>
+
+<p>Extensas jornadas, sueldos precarios, insultos... Estas son las condiciones que un trabajador de la empresa CRON ha filtrado a uno de nuestros colaboradores. </p>
+<p>Famosa por su presencia internacional y por la creación de casi cien mil puestos de empleo en todo el mundo, parece que CRON se une a la reciente polémica de contratos basura.</p>
+
+<p>¿Quieres saber más? Únete a nuestro servicio <b>DigitalCNU Premium.</b></p>
+<div class="col-lg-12">
+        <img src="oficinas.jpg" class="col-md-8 img-fluid"/>
+</div>

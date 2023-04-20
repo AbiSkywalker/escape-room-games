@@ -1,0 +1,99 @@
+
+<h3 class="col-lg-12">Resumen de gastos</h3>
+<h5 class="col-lg-12">Dr Rubio</h5>
+
+        <div class="col-md-12">
+                      <table class="tablaGastos">
+                          <tr><td colspan="6" class="dia_tablaGastos">Martes <span class="small">(día 1)</span></td></tr>
+                          <tr>
+                            <td class="flnum">UA1063</td>
+                            <th class="text-center">8:50<br/>EWR</th>
+                            <th rowspan="2"><span class="linea"></span></th>
+                            <th class="text-center">13:40<br/>MEX</th>
+                            <td class="flduracion">5h 50min</td>
+                            <td class="flprecio">165.16 €</td>
+                          </tr>
+                          
+                          <tr><td colspan="6" class="dia_tablaGastos">Miércoles <span class="small">(día 2)</span></td></tr>
+                          <tr>
+                            <td class="flnum">Comida<br/>Alojamiento</td>
+
+                            <th rowspan="2" colspan="3"></th>
+
+                            <td class="flduracion"></td>
+                            <td class="flprecio">57.35 €<br>106.00 €</td>
+                          </tr>
+                          
+                          <tr><td colspan="6" class="dia_tablaGastos">Jueves <span class="small">(día 3)</span></td></tr>
+                          <tr>
+                            <td class="flnum">AM7901</td>
+                            <th class="text-center">6:51<br/>MEX</th>
+                            <th rowspan="2"><span class="linea"></span></th>
+                            <th class="text-center">10:37<br/>PTY</th>
+                            <td class="flduracion">3h 46min</td>
+                            <td class="flprecio">553.65 €</td>
+                          </tr>
+                          <tr>
+                            <td class="flnum">Comida</td>
+
+                            <th rowspan="2" colspan="3"></th>
+
+                            <td class="flduracion"></td>
+                            <td class="flprecio">15.30 €</td>
+                          </tr>
+                          <tr><td colspan="6" class="dia_tablaGastos">Viernes <span class="small">(día 4)</span></td></tr>
+                          <tr>
+                            <td class="flnum">CM337</td>
+                            <th class="text-center">18:08<br/>PTY</th>
+                            <th rowspan="2"><span class="linea"></span></th>
+                            <th class="text-center">21:45<br/>LIM</th>
+                            <td class="flduracion">3h 46min</td>
+                            <td class="flprecio">437.99 €</td>
+                          </tr>
+                          
+                          <tr><td colspan="6" class="dia_tablaGastos">Sábado <span class="small">(día 5)</span></td></tr>
+                          <tr>
+                            <td class="flnum">Transporte</td>
+
+                            <th rowspan="2" colspan="3"></th>
+
+                            <td class="flduracion"></td>
+                            <td class="flprecio">27.99 €</td>
+                          </tr>
+                          
+                          <tr><td colspan="6" class="dia_tablaGastos">Domingo <span class="small">(día 6)</span></td></tr>
+                          <tr>
+                            <td class="flnum">Transporte<br>Alojamiento</td>
+
+                            <th rowspan="2" colspan="3"></th>
+
+                            <td class="flduracion"></td>
+                            <td class="flprecio">29.99 €<br>178.58€</td>
+                          </tr>
+                          
+                          <tr><td colspan="6" class="dia_tablaGastos">Martes <span class="small">(día 8)</span></td></tr>
+                          <tr>
+                            <td class="flnum">LA2429</td>
+                            <th class="text-center">12:45<br/>LIM</th>
+                            <th rowspan="2"><span class="linea"></span></th>
+                            <th class="text-center">19:03<br/>EZE</th>
+                            <td class="flduracion">3h 46min</td>
+                            <td class="flprecio">407.02 €</td>
+                          </tr>
+                          
+                          <tr><td colspan="6" class="dia_tablaGastos">Jueves <span class="small">(día 10)</span></td></tr>
+                          <tr>
+                            <td class="flnum">IB954</td>
+                            <th class="text-center">21:40<br/>EZE</th>
+                            <th rowspan="2"><span class="linea"></span></th>
+                            <th class="text-center">07:23<br/>JFK</th>
+                            <td class="flduracion">3h 46min</td>
+                            <td class="flprecio">463.23 €</td>
+                          </tr>
+                         <tr><td colspan="6" class="dia_tablaGastos"></td></tr>
+                         <tr><td colspan="3" class="dia_tablaGastos">Total:</td><td colspan="3" class="dia_tablaGastos text-right">2442.26€</td></tr>
+                      </table>
+        </div>
+        
+        
+       

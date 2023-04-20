@@ -1,0 +1,3 @@
+Tiempos equipos cron:
+
+SELECT nombre, DATE_FORMAT(FROM_UNIXTIME(horafin - horainicio), '%H %i') as tiempo_calc FROM `equiposcron` order by tiempo_calc;

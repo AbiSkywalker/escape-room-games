@@ -1,0 +1,120 @@
+<div class="row">
+<h3 class="col-lg-12">Agenda Dr Rubio</h3>
+<h5 class="col-lg-12">Viaje América Central y del Sur</h5>
+
+<!--table>
+        <tr>
+                <th>Día 1</th>
+                <td><span class="plane">UA 1063</span></td>
+        </tr>
+        <tr>
+                <td class="evento">Entrevista CNF</td>
+        </tr>
+</table-->
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 1</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-primary" role="alert">
+                          <span class="plane">Vuelo UA1063</span>
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                          Entrevista CNF
+                        </div>
+                </div>
+        </div>
+        
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 2</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-warning" role="alert">
+                          Visita laboratorios locales
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                          Comida directores
+                        </div>
+                </div>
+        </div>
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 3</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-primary" role="alert">
+                          <span class="plane">Vuelo AM7901</span>
+                        </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 4</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-primary" role="alert">
+                          <span class="plane">Vuelo CM337</span>
+                        </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 5</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-danger" role="alert">
+                          Visita laboratorio GRIFO
+                        </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 6</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-danger" role="alert">
+                          Reunión personal GRIFO
+                        </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 7</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-success" role="alert">
+                          Entrevista FF33
+                        </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 8</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-primary" role="alert">
+                          <span class="plane">Vuelo LA2429</span>
+                        </div>
+                </div>
+        </div>
+
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 9</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-success" role="alert">
+                          Entrevista LMagazine
+                        </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5 dia">
+                <div class="col-md-12"><h4>Día 10</h4></div>
+                <div class="col-md-12">
+                        
+                        <div class="alert alert-primary" role="alert">
+                          <span class="plane">Regreso Vuelo IB954</span>
+                        </div>
+                </div>
+        </div>
+
+</div>

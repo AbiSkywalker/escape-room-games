@@ -1,0 +1,71 @@
+
+<div class="col-md-8">
+        <h3>REGISTRO CRIMINAL</h3>
+        <h5>USJD9876FV22N</h5>
+        <p class="small">Información confidencial</p>
+</div>
+
+
+<div class="col-md-8">
+        <table class="personal_archivo">
+                <tr><td>Nombre</td><td>Tutuni, Evelyn</td></tr>
+                <tr><td>Nacionalidad</td><td>Filipina</td></tr>
+                <tr><td>Género</td><td>Femenino</td></tr>
+                <tr><td>Edad</td><td>18</td></tr>
+                <tr><td>Nº de archivo</td><td>#487625-659</td></tr>
+        </table>
+</div>
+
+<div class="col-md-4 text-right">
+        <img class="img-thumbnail" src="tutuni_archivo.jpg"/>
+</div>
+<div class="col-lg-12">
+<h4>Cargos y denuncia</h4>
+<table class="cargos_archivo">
+        <tr>
+                <th>Fecha</th>
+                <th>Código de ofensa</th>
+                <th>Cargo y descripción</th>
+                <th>Sentencia</th>
+        </tr>
+        <tr>
+                <td>05/08/1989</td>
+                <td>05-426</td>
+                <td>Acusada de participar en experimentos científicos ilegales y sin consentimiento de los pacientes</td>
+                <td>Pendiente de juicio</td>
+        </tr>
+
+</table>
+<h5>Huellas dactilares</h5>
+<table class="huellas_archivo">
+        <tr>
+                <td><img class="img-thumbnail" src="pulgar_dcho.jpg"/></td>
+                <td><img class="img-thumbnail" src="indice_dcho.jpg"/></td>
+                <td><img class="img-thumbnail" src="medio_dcho.jpg"/></td>
+                <td><img class="img-thumbnail" src="anular_dcho.jpg"/></td>
+                <td><img class="img-thumbnail" src="meñique_dcho.jpg"/></td>
+        </tr>
+        <tr>
+                <td>Pulgar D.</td>
+                <td>Índice D.</td>
+                <td>Medio D.</td>
+                <td>Anular D.</td>
+                <td>Meñique D.</td>
+        </tr>
+        <tr>
+                <td><img class="img-thumbnail" src="pulgar_izq.jpg"/></td>
+                <td><img class="img-thumbnail" src="indice_izq.jpg"/></td>
+                <td><img class="img-thumbnail" src="medio_izq.jpg"/></td>
+                <td><img class="img-thumbnail" src="anular_izq.jpg"/></td>
+                <td><img class="img-thumbnail" src="meñique_izq.jpg"/></td>
+        </tr>
+        <tr>
+                <td>Pulgar I.</td>
+                <td>Índice I.</td>
+                <td>Medio I.</td>
+                <td>Anular I.</td>
+                <td>Meñique I.</td>
+        </tr>
+
+</table>
+</div>

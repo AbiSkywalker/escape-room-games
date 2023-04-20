@@ -1,0 +1,65 @@
+body.suelo{
+        background: #72b6b8;
+}
+
+#pared{
+        background: #83d1d2;
+}
+
+#escritorio{
+        background-image: url("../img/escritorio.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#lampara{
+        background-image: url("../img/lampara.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+#estanteria{
+        background-image: url("../img/estanteria.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+#caja_fuerte{
+        background-image: url("../img/caja_fuerte.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+#papeles{
+        background-image: url("../img/papeles.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+
+#id_postit{
+        background-image: url("../img/postit.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+}
+
+.mensajeid{
+    background-image: url(../img/postit_fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.mensajeid .modal-content{
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: #152a76;
+}
+

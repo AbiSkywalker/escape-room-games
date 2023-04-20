@@ -1,0 +1,20 @@
+<h2 class="col-lg-12">“El futuro está cada vez más cerca”</h2>
+<h5 class="col-lg-12"><i>Hablamos con la doctora Samanta Kobalt sobre el panorama científico actual</i></h5>
+<div class="col-md-4">
+        <p></p>
+        <img src="kobalt.jpg" class="img-fluid"/>
+</div>
+<div class="col-md-8">
+        <p style="width: 100%;">[...]</p>
+        
+        <p><b>¿Hay un compromiso serio con el cuidado del planeta?</b></p>
+        <p>S.K.: La verdad es que es difícil pensar en una manera en la que el planeta pueda regenerarse estando presente el ser humano. La historia nos muestra que los esfuerzos que se han hecho por restaurar a sus valores óptimos los ecosistemas naturales han estado muy por debajo de las expectativas o han sido totalmente infructíferos.</p>
+        
+        <p><b>¿Significa eso que no hay ningún tipo de esperanza?</b></p>
+        <p>S.K.: No es lo que quiero decir. Pero debemos encontrar un modo en que el planeta esté de alguna manera completamente aislado de la especie humana para que podamos disfrutarlo por completo. Y hay una parte significativa de la comunidad científica que piensa que es posible hallar el modo.</p>
+        
+        <p><b>¿Se considera especialmente implicada en este proceso?</b></p>
+        <p>S.K.: Por supuesto. Aunque actualmente vivo en Kansas por mi trabajo, me crié en un pueblecito de Irlanda rodeada de bosques y aire puro. Para mí la naturaleza y el contacto con ella es una parte muy importante de mi vida y de mi trabajo.</p>
+        
+        <p style="width: 100%;">[...]</p>
+</div>

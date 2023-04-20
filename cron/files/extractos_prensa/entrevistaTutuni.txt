@@ -1,0 +1,24 @@
+
+<h2 class="col-lg-12">“Me vi salpicada por actividades que desconocía”</h2>
+<h5 class="col-lg-12"><i>Las declaraciones de Evelyn Tutuni sobre su turbio pasado</i></h5>
+<div class="col-md-8">
+        <p style="width: 100%;">[...]</p>
+        
+        <p><i>Se vio recientemente implicada en un pol&eacute;mica...</i></p>
+        <p>D.T.: Perdone que lo interrumpa. En su momento realicé un comunicado y no veo necesario entrar de nuevo en ese tema. Solamente aclarar que lo que se filtró fue información condidencial y personal, lo cual es un delito.
+        </p>
+        
+        <p><i>Se filtró su expediente policial.</i></p>
+        <p>D.T.: Exacto, y es preocupante que una información que debería estar a disposición solo de personas que dicen protegernos,
+        acabe en manos de todo el mundo con el único fin de someter a alguien a un linchamiento público.</p>
+        
+        <p><i>Pero la información publicada podría comprometer su carrera.</i></p>
+        <p>D.T.: No lo creo. Lo que se ha publicado es un asunto que sucedió hace décadas, y en el que me vi salpicada por las dudosas actividades de una empresa en la que trabajaba como becaria, actividades que yo desconocía.
+        Me preocupa más que haya datos personales en conocimiento de todos que permitan un robo de identidad.</p>
+        
+        <p style="width: 100%;">[...]</p>
+</div>
+<div class="col-md-4">
+        <p></p>
+        <img src="tutuni.jpg" class="img-fluid"/>
+</div>

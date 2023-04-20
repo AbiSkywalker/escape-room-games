@@ -1,0 +1,22 @@
+<h2>Producción Mundial de Arroz 2019/2020</h2>
+
+<p>El <b>USDA</b> (Departamento de Agricultura de Estados Unidos) estima que la Producción Mundial de Arroz 2019/2020 rondará los 496.08 millones de toneladas.
+Esto supondría una reducción del 0.60% en la producción de arroz alrededor del mundo.</p>
+<p>A continuación realizamos una comparativa de los mayores países productores de arroz a nivel mundial, en base a la producción del año pasado.</p>
+
+<div class="col-md-6">
+        <ul>
+                <li><b>China:</b> 146,730,000 toneladas métricas.</li>
+                <li><b>India:</b> 118,000,000 toneladas métricas.</li>
+                <li><b>Indonesia:</b> 36,500,000 toneladas métricas.</li>
+                <li><b>Bangladesh:</b> 35,850,000 toneladas métricas.</li>
+                <li><b>Vietnam:</b> 27,369,000 toneladas métricas.</li>
+                <li><b>Tailandia:</b> 18,000,000 toneladas métricas.</li>
+                <li><b>Birmania:</b> 12,700,000 toneladas métricas.</li>
+                <li><b>Filipinas:</b> 11,400,000 toneladas métricas.</li>
+                <li><b>Japón:</b> 7,611,000 toneladas métricas.</li>
+        </ul>
+</div>
+<div class="col-md-6">
+        <img src="grafico.jpg" class="img-fluid"/>
+</div>

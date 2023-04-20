@@ -1,0 +1,896 @@
+<script>
+
+var comprobar_solucion = true;
+        $(document).ready(function(){
+                if(comprobar_solucion){
+                        $('.btsolucion').click(function(){
+                                console.log("solucionN");
+                                $.ajax({
+                                            url: 'solucion.php',
+                                            type: 'POST',
+                                            success: function(data) {
+                                                   console.log(data);
+                                                  comprobar_solucion = false;
+                                                
+                                            },
+                                            error: function(xhr, ajaxOptions, thrownError) {}
+                                    });
+                                    
+                                
+                        });
+                }
+        });
+</script>
+<div class="col-lg-12" style="color: #333;">
+        <p class="text-center">Hemos dividido el juego en 6 pruebas. Para cada una de ellas tendrás varias pistas. ¡Pide todas las que necesites! Si sigues perdido, puedes acceder directamente a la solución.</p>
+        <ul id="lista_pistas">
+                <li class="grupo_pistas">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistas1" aria-expanded="false" aria-controls="collapseExample">
+                            1. ¡Mensaje recibido!
+                        </button>
+                                <ul class="collapse" id="grupopistas1">
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista1a" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista1
+                                                </button>
+                                                <div class="collapse" id="pista1a">
+                                                  <div class="card card-body">
+                                                        <p>¿Has recibido un mensaje del futuro? Léelo bien, en él tienes instrucciones precisas del siguiente paso.</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista1b" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista2
+                                                </button>
+                                                <div class="collapse" id="pista1b">
+                                                  <div class="card card-body">
+                                                        <p>Mira bien a tu alrededor... toca todas las puertas que encuentres. ¿Alguna te sirve para <i>entrar</i>?</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista1c" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista3
+                                                </button>
+                                                <div class="collapse" id="pista1c">
+                                                  <div class="card card-body">
+                                                        <p>Para iniciar sesión, fíjate en los datos del mensaje recibido. ¿Desde qué año te escriben? ¿Y en qué año estás tú? La clave es la suma.</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucion1" aria-expanded="false" aria-controls="collapseExample">
+                                                    Solución
+                                                </button>
+                                                <div class="collapse" id="solucion1">
+                                                  <div class="card card-body">
+                                                        <p>Pulsa el botón <i>Entrar</i>, arriba a la derecha. El usuario es <i>lgriso@cron.inc</i> y la clave <i>4442</i></p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                </ul>
+                </li>
+                <li class="grupo_pistas">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistas2" aria-expanded="false" aria-controls="collapseExample">
+                            2. Ya estoy dentro, ¿y ahora?
+                        </button>
+                                <ul class="collapse" id="grupopistas2">
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista2a" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 1
+                                                </button>
+                                                <div class="collapse" id="pista2a">
+                                                  <div class="card card-body">
+                                                        <p>¡Bien! Ya estás dentro del panel de usuarios internos de CRON. El mensaje de Griso hablaba de un acceso alternativo 
+                                                       a las opciones de configuración avanzada. Quizá si echas un vistazo entre sus emails, puedas encontrar algún dato más...</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista2b" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 2
+                                                </button>
+                                                <div class="collapse" id="pista2b">
+                                                  <div class="card card-body">
+                                                        <p>Por lo visto, Medelpiot cree que sus sistemas de seguridad son un <i>"castillo de imposible acceso"</i>.
+                                                        ¿Habrá algo entre los documentos de Griso que me ayude a acceder al castillo?</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista2c" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista3
+                                                </button>
+                                                <div class="collapse" id="pista2c">
+                                                  <div class="card card-body">
+                                                        <p>Según Robert Cyan, hay una combinación de movimientos que permite acceder al sistema. Griso tiene un documento llamado "acceso al castillo".
+                                                        ¿Qué son esas flechas de abajo?</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucion2" aria-expanded="false" aria-controls="collapseExample">
+                                                    Solución
+                                                </button>
+                                                <div class="collapse" id="solucion2">
+                                                  <div class="card card-body">
+                                                        <p>Introduce la secuencia de movimientos que aparece en el documento "acceso al castillo". Puedes hacerlo con las teclas de dirección, o deslizando el dedo sobre una pantalla táctil.</p>
+                                                      
+                                                        <p>Puedes hacerlo en cualquier sección de la web</p>
+                                                        <p class="text-right text-info"><a href="http://escapedesdecasa.125mb.com/cron/puzzle.php">No puedo, hazlo tú por mí.</a></p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                </ul>
+                </li>
+                
+                <li class="grupo_pistas">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistas3" aria-expanded="false" aria-controls="collapseExample">
+                            3. Saltando la seguridad
+                        </button>
+                                <ul class="collapse" id="grupopistas3">
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista3a" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 1
+                                                </button>
+                                                <div class="collapse" id="pista3a">
+                                                  <div class="card card-body">
+                                                        <p>Para saltarte este sistema de seguridad, quizá necesites la ayuda de un amigo. Busca entre los mensajes recibidos.</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista3b" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 2
+                                                </button>
+                                                <div class="collapse" id="pista3b">
+                                                  <div class="card card-body">
+                                                        <p>Robert Cyan te ha mandado un correo con la clave para hackear este sistema de seguridad. ¿Puedes buscar algo más entre las notas?</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista3c" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista3
+                                                </button>
+                                                <div class="collapse" id="pista3c">
+                                                  <div class="card card-body">
+                                                        <p>Sigue el esquema del documento <i>Circuito Nanochip CR-27</i></p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucion3" aria-expanded="false" aria-controls="collapseExample">
+                                                    Solución
+                                                </button>
+                                                <div class="collapse" id="solucion3">
+                                                  <div class="card card-body">
+                                                        <p>Introduce los siguientes comandos: 2 movimientos hacia la derecha, 2 hacia abajo, 2 hacia la derecha,
+                                                        1 hacia arriba, 2 hacia la derecha, 3 hacia abajo, 3 hacia la izquierda, 3 hacia abajo, 1 hacia la derecha,
+                                                        1 hacia abajo, 1 hacia la derecha, 1 hacia abajo, 2 hacia la derecha, 3 hacia arriba, 2 hacia la derecha, 3 hacia abajo.</p>
+                                                        <p class="text-right text-info"><a href="http://escapedesdecasa.125mb.com/cron/secret_login.php">No puedo, hazlo tú por mí.</a></p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                </ul>
+                </li>
+                
+                <li class="grupo_pistas">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistas4" aria-expanded="false" aria-controls="collapseExample">
+                            4. ¡Identifícate!
+                        </button>
+                                <ul class="collapse" id="grupopistas4">
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista4a" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 1
+                                                </button>
+                                                <div class="collapse" id="pista4a">
+                                                  <div class="card card-body">
+                                                        <p>¿Quién se encarga de la gestión remota de instalaciones? El organigrama del proyecto puede servirte.</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista4b" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 2
+                                                </button>
+                                                <div class="collapse" id="pista4b">
+                                                  <div class="card card-body">
+                                                        <p>La persona a la que buscas es Evelyn Tutuni. ¿Qué documentos tienes sobre ella?</p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista4c" aria-expanded="false" aria-controls="collapseExample">
+                                                    Pista 3
+                                                </button>
+                                                <div class="collapse" id="pista4c">
+                                                  <div class="card card-body">
+                                                        <p>Necesitas una identificación biométrica. ¿Hay algo en la ficha policial de Evelyn Tutuni que pueda servirte?</i></p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                        <li class="pista">
+                                                <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucion4" aria-expanded="false" aria-controls="collapseExample">
+                                                    Solución
+                                                </button>
+                                                <div class="collapse" id="solucion4">
+                                                  <div class="card card-body">
+                                                        <p>Usa la imagen de la huella del índice derecho de la ficha policial de Evelyn Tutuni para identificarte arrastrándola hasta el lector de huellas.</p>
+                                                        <p class="text-right text-info"><a href="http://escapedesdecasa.125mb.com/cron/administrar.php">No puedo, hazlo tú por mí.</a></p>
+                                                  </div>
+                                                </div>
+                                        </li>
+                                </ul>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="grupo_pistas">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistas5" aria-expanded="false" aria-controls="collapseExample">
+                            5. Localizar los laboratorios
+                        </button>
+                                <ul class="collapse" id="grupopistas5">
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista5a" aria-expanded="false" aria-controls="collapseExample">
+                                                    General
+                                                </button>
+                                                <div class="collapse" id="pista5a">
+                                                  <div class="card card-body">
+                                                                <ul class="collapse" id="pista5a">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGeneralA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGeneralA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Hay algún documento de la empresa que te permita saber cuántos laboratorios del proyecto Cronos hay?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGeneralB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGeneralB">
+                                                                          <div class="card card-body">
+                                                                                <p>El organigrama del proyecto muestra los directores de laboratorio. Reúne información sobre ellos para filtrar entre
+                                                                                todos los laboratorios del mapa</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+
+                                                                </ul>
+                                                  </div>
+                                                </div>
+                                        </li>
+
+
+
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista5b" aria-expanded="false" aria-controls="collapseExample">
+                                                    Laboratorios
+                                                </button>
+                                                <div class="collapse" id="pista5b">
+                                                  <div class="card card-body">
+                                                        <ul>
+                                                            <li class="grupo_pistas">
+
+                                                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasFenix" aria-expanded="false" aria-controls="collapseExample">
+                                                                    Fénix
+                                                                </button>
+                                                                <ul class="collapse" id="grupopistasFenix">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaFenixA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaFenixA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Quién dirige el laboratorio Fénix? Busca información sobre esta persona.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaFenixB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaFenixB">
+                                                                          <div class="card card-body">
+                                                                                <p>La entrevista a S. Kobalt menciona que trabaja en Kansas. ¿Podemos afinar aún más la búsqueda?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaFenixC" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 3
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaFenixC">
+                                                                          <div class="card card-body">
+                                                                                <p>El mensaje de Samanta Kobalt habla de Garden City. ¿Hay algún laboratorio allí?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionFenix" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionFenix">
+                                                                          <div class="card card-body">
+                                                                                <p>Las coordenadas del laboratorio Fénix son: Latitud: 37.97255 y Longitud: -100.86982.<br/>
+                                                                                Código: XF103</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </li>
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasGrifo" aria-expanded="false" aria-controls="collapseExample">
+                                                                Grifo
+                                                            </button>
+															<ul class="collapse" id="grupopistasGrifo">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGrifoA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGrifoA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Quién dirige el laboratorio Grifo? Busca información sobre esta persona.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGrifoB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGrifoB">
+                                                                          <div class="card card-body">
+                                                                                <p>La agenda de viajes muestra que el Dr. Rubio visitó el laboratorio Grifo el día 5. ¿Dónde estaba ese día?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGrifoC" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 3
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGrifoC">
+                                                                          <div class="card card-body">
+                                                                                <p>En el resumen de gastos vemos que el día anterior había llegado al aeropuerto de Lima, Perú. ¿Hay algún laboratorio en ese país?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionGrifo" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionGrifo">
+                                                                          <div class="card card-body">
+                                                                                <p>Las coordenadas del laboratorio Grifo son: Latitud: -13.16301 y Longitud: -72.5449.<br/>
+                                                                                Código: GF289</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasEsfinge" aria-expanded="false" aria-controls="collapseExample">
+                                                                Esfinge
+                                                            </button>
+															<ul class="collapse" id="grupopistasEsfinge">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaEsfingeA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaEsfingeA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Quién dirige el laboratorio Esfinge? Busca información sobre esta persona.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaEsfingeB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaEsfingeB">
+                                                                          <div class="card card-body">
+                                                                                <p>La Dra. Rose habla en su mensaje de un artículo de prensa. ¿Puedes encontrar alguna pista en ese artículo?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaEsfingeC" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 3
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaEsfingeC">
+                                                                          <div class="card card-body">
+                                                                                <p>El artículo contiene una foto del laboratorio. ¿Qué se ve por la ventana? ¿Podrías localizarlo en un mapa?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionEsfinge" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionEsfinge">
+                                                                          <div class="card card-body">
+                                                                                <p>Las coordenadas del laboratorio Esfinge son: Latitud: 48.85881 y Longitud: 2.28868.<br/>
+                                                                                Código: GS554</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasMedusa" aria-expanded="false" aria-controls="collapseExample">
+                                                                Medusa
+                                                            </button>
+															<ul class="collapse" id="grupopistasMedusa">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaMedusaA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaMedusaA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Quién dirige el laboratorio Medusa? Busca información sobre esta persona.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaMedusaB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaMedusaB">
+                                                                          <div class="card card-body">
+                                                                                <p>En el correo del Dr. P. Pino, habla de alguien con quien puedes contactar. Prueba a mandarle un mensaje desde la bandeja de entrada.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaMedusaC" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 3
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaMedusaC">
+                                                                          <div class="card card-body">
+                                                                                <p>Mbali Buleni saluda y se despide con "Goeie More" y "Totsiens". ¿Qué idioma es? ¿Dónde se habla? ¿Hay algún laboratorio en la zona?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionMedusa" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionMedusa">
+                                                                          <div class="card card-body">
+                                                                                <p>Las coordenadas del laboratorio Medusa son: Latitud: -29.65889 y Longitud: 17.90119.<br/>
+                                                                                Código: MD351</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasDragon" aria-expanded="false" aria-controls="collapseExample">
+                                                                Dragón
+                                                            </button>
+															<ul class="collapse" id="grupopistasDragon">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaDragonA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaDragonA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Quién dirige el laboratorio Dragón? Busca información sobre esta persona.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaDragonB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaDragonB">
+                                                                          <div class="card card-body">
+                                                                                <p>El Dr. Natch menciona la producción de arroz. Según los extractos de prensa, ¿cuál es el país que más produce?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaDragonC" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 3
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaDragonC">
+                                                                          <div class="card card-body">
+                                                                                <p>El mensaje del Dr. Natch habla de la zona de cultivos. De los laboratorios de China, ¿hay alguno que no esté en medio de una ciudad?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionDragon" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionDragon">
+                                                                          <div class="card card-body">
+                                                                                <p>Las coordenadas del laboratorio Dragón son: Latitud: 25.81675 y Longitud: 110.02411.<br/>
+                                                                                Código: GA910</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasCiclope" aria-expanded="false" aria-controls="collapseExample">
+                                                                Cíclope
+                                                            </button>
+															<ul class="collapse" id="grupopistasCiclope">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaCiclopeA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaCiclopeA">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Quién dirige el laboratorio Cíclope? Busca información sobre esta persona.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaCiclopeB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaCiclopeB">
+                                                                          <div class="card card-body">
+                                                                                <p>El correo del Dr. Blanco muestra un mapa. ¿Puedes encontrar la isla correspondiente?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaCiclopeC" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 3
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaCiclopeC">
+                                                                          <div class="card card-body">
+                                                                                <p>El laboratorio se encuentra cerca de la costa de la isla <i>Pulau Seram</i>.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionCiclope" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionCiclope">
+                                                                          <div class="card card-body">
+                                                                                <p>Las coordenadas del laboratorio Cíclope son: Latitud: -3.66235 y Longitud: 129.39891.<br/>
+                                                                                Código: LP739</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                  </div>
+                                                </div>
+                                        </li>
+
+
+                                </ul>
+                </li>
+                
+
+                <li class="grupo_pistas">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistas6" aria-expanded="false" aria-controls="collapseExample">
+                            6. Desactivar los laboratorios
+                        </button>
+                                <ul class="collapse" id="grupopistas6">
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista6a" aria-expanded="false" aria-controls="collapseExample">
+                                                    General
+                                                </button>
+                                                <div class="collapse" id="pista6a">
+                                                  <div class="card card-body">
+                                                                <ul class="collapse" id="pista6a">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGeneralA" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGeneralA">
+                                                                          <div class="card card-body">
+                                                                                <p>Introduce las coordenadas y el código en la gestión remota de laboratorios para cambiar su configuración.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGeneralB" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGeneralB">
+                                                                          <div class="card card-body">
+                                                                                <p>Las notas del Dr. Medelpiot incluyen detalles sobre los laboratorios que pueden servirte para sabotearlos.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+
+                                                                </ul>
+                                                  </div>
+                                                </div>
+                                        </li>
+
+
+
+                                        <li class="pista">
+                                                <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pista6b" aria-expanded="false" aria-controls="collapseExample">
+                                                    Laboratorios
+                                                </button>
+                                                <div class="collapse" id="pista6b">
+                                                  <div class="card card-body">
+                                                        <ul>
+                                                            <li class="grupo_pistas">
+
+                                                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasFenix2" aria-expanded="false" aria-controls="collapseExample">
+                                                                    Fénix
+                                                                </button>
+                                                                <ul class="collapse" id="grupopistasFenix2">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaFenix2A" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaFenix2A">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Qué dicen las notas del Dr. Medelpiot sobre el laboratorio Fénix?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaFenix2B" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaFenix2B">
+                                                                          <div class="card card-body">
+                                                                                <p>El mensaje de alerta habla sobre los generadores auxiliares. ¿Qué configuración los activaría?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionFenix2" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionFenix2">
+                                                                          <div class="card card-body">
+                                                                                <p>En la pestaña <i>Panel eléctrico</i>, sitúa la potencia entre el 20 y el 60%.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </li>
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasGrifo2" aria-expanded="false" aria-controls="collapseExample">
+                                                                Grifo
+                                                            </button>
+                                                            <ul class="collapse" id="grupopistasGrifo2">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGrifo2A" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGrifo2A">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Qué dicen las notas del Dr. Medelpiot sobre el laboratorio Grifo?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaGrifo2B" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaGrifo2B">
+                                                                          <div class="card card-body">
+                                                                                <p>Las notas recomiendan evitar ciertos canales, ¿cuáles son?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionGrifo2" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionGrifo2">
+                                                                          <div class="card card-body">
+                                                                                <p>En la pestaña <i>Redes</i>, coloca una antena en el canal 5 y otra en el canal 6.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasEsfinge2" aria-expanded="false" aria-controls="collapseExample">
+                                                                Esfinge
+                                                            </button>
+                                                            <ul class="collapse" id="grupopistasEsfinge2">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaEsfinge2A" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaEsfinge2A">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Qué dicen las notas del Dr. Medelpiot sobre el laboratorio Esfinge?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaEsfinge2B" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaEsfinge2B">
+                                                                          <div class="card card-body">
+                                                                                <p>Las notas muestran que introducir parámetros incorrectos varias veces seguidas puede desactivar el laboratorio.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionEsfinge2" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionEsfinge2">
+                                                                          <div class="card card-body">
+                                                                                <p>En la pestaña <i>Entorno</i>, aumenta la temperatura por encima de 20º, y coloca la humedad por debajo de 40%, o por encima de 65º. Haz este cambio 3 veces.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasMedusa2" aria-expanded="false" aria-controls="collapseExample">
+                                                                Medusa
+                                                            </button>
+                                                            <ul class="collapse" id="grupopistasMedusa2">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaMedusa2A" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaMedusa2A">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Qué dicen las notas del Dr. Medelpiot sobre el laboratorio Medusa?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaMedusa2B" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaMedusa2B">
+                                                                          <div class="card card-body">
+                                                                                <p>Para asegurar el buen funcionamiento, ¿qué temperatura debe mantenerse?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionMedusa2" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionMedusa2">
+                                                                          <div class="card card-body">
+                                                                                <p>En la pestaña <i>Atmósfera</i>, sube la temperatura por encima de -40º C</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasDragon2" aria-expanded="false" aria-controls="collapseExample">
+                                                                Dragón
+                                                            </button>
+                                                            <ul class="collapse" id="grupopistasDragon2">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaDragon2A" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaDragon2A">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Qué dicen las notas del Dr. Medelpiot sobre el laboratorio Dragón?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaDragon2B" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaDragon2B">
+                                                                          <div class="card card-body">
+                                                                                <p>La alerta de las notas dice qué hacer para colapsar el sistema.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionDragon2" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionDragon2">
+                                                                          <div class="card card-body">
+                                                                                <p>En la pestaña <i>Drenaje</i>, marca las puertas 1, 2 y 3 como "abiertas", y la 4 como "cerrada".</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li class="grupo_pistas">
+
+                                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupopistasCiclope2" aria-expanded="false" aria-controls="collapseExample">
+                                                                Cíclope
+                                                            </button>
+                                                            <ul class="collapse" id="grupopistasCiclope2">
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaCiclope2A" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 1
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaCiclope2A">
+                                                                          <div class="card card-body">
+                                                                                <p>¿Qué dicen las notas del Dr. Medelpiot sobre el laboratorio Cíclope?</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-primary btpista" type="button" data-toggle="collapse" data-target="#pistaCiclope2B" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Pista 2
+                                                                        </button>
+                                                                        <div class="collapse" id="pistaCiclope2B">
+                                                                          <div class="card card-body">
+                                                                                <p>Las notas hablan de variar el rumbo y aumentar la velocidad. El mapa del Dr. Blanco mencionaba el rumbo actual del barco.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="pista">
+                                                                        <button class="btn btn-warning btsolucion" type="button" data-toggle="collapse" data-target="#solucionCiclope2" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Solución
+                                                                        </button>
+                                                                        <div class="collapse" id="solucionCiclope2">
+                                                                          <div class="card card-body">
+                                                                                <p>En la pestaña <i>Navegación</i>, introduce el rumbo N 10º E, y la velocidad por encima de 70 nudos.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                  </div>
+                                                </div>
+                                        </li>
+
+
+                                </ul>
+                </li>
+
+        </ul>
+        
+        <br/>
+       <p class="text-left">Si tienes algún problema, escríbenos a <b><span class="text-info">escaperoomnatabi@gmail.com</span></b></p>
+</div>

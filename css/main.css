@@ -1,0 +1,192 @@
+.title, .primblue, .text-info{
+        color: #337ab7!important;
+}
+
+.bg-primary {
+    background-color: #337ab7!important;
+}
+
+.display-4{
+        font-size: 2.5rem !important;
+}
+
+.navbtn {
+    background-color: #337ab7;
+    border: none;
+    color: white;
+    padding: 9px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+/* Darker background on mouse-over */
+.navbtn:hover {
+  background-color: #286090;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-tabs .nav-link{color: grey;}
+
+.section_juego{
+    margin-bottom: 30px;
+    padding: 0px 12px;
+}
+
+.tab-pane {
+    padding: 10px;
+}
+
+.inlineform input{
+    display: inline-block;
+    width: auto;
+    min-width: 50%;
+    max-width: 70%;
+}
+
+#unirsecronform, .joingameform{
+    padding: 10px;
+    border: 1px solid #337ab7;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+
+.groupid{
+     margin-bottom: 10px;
+}
+
+/*Crear grupo*/
+
+#mainsec{
+     padding: 30px 0;
+}
+
+#esc_header{
+    /*background-image: url(../img/logo_escape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 25px;*/
+}
+
+
+#cajacookies {
+ box-shadow: 0px 0px 5px 5px #808080;
+    background-color: white;
+    color: #337ab7;
+    padding: 10px;
+    /* margin-left: -15px; */
+    /* margin-right: -15px; */
+    /* margin-bottom: 0px; */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.cookies-heading{
+
+    margin-top: 2.5em !important;
+}
+
+.h4.cookies-heading{
+    color: #123d63;
+    text-decoration: underline;
+}
+    
+.imgportada{
+    max-width: 100%;
+
+}
+
+iframe{ 
+        max-width: 100%;
+}
+
+
+
+/*----Formulario fin juego---- */
+
+#form_finjuego_wrapper{
+        padding-top: 50px;
+}
+
+.form_finjuego{
+        font-size: 12px;
+}
+
+.star-rating{
+	font-size: 0;
+}
+.star-rating__wrap{
+	display: inline-block;
+	font-size: 12px;
+}
+.star-rating__wrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.star-rating__ico{
+	float: right;
+	padding-left: 2px;
+	cursor: pointer;
+	color: #9cb3cc;
+}
+.star-rating__ico:last-child{
+	padding-left: 0;
+}
+.star-rating__input{
+	display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+	color: #007bff;
+}
+
+
+/*lock*/
+.lock-rating__ico{
+	float: right;
+	padding-left: 7px;
+	cursor: pointer;
+	color: #9cb3cc;
+}
+.lock-rating__ico:last-child{
+	padding-left: 0;
+}
+.lock-rating__input{
+	display: none;
+}
+.lock-rating__ico:hover:before,
+.lock-rating__ico:hover ~ .lock-rating__ico:before,
+.lock-rating__input:checked ~ .lock-rating__ico:before
+{
+	color: #007bff;
+}
+
+.form_finjuego textarea{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+}
+
+
+/*Footer*/
+
+footer {
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.partner_logo img{
+        width: 30%;
+        margin-top: 10px;
+}
