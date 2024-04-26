@@ -15,10 +15,10 @@
         //Actualizar sesion
         
         // Create connection
-        $servername = "pdb49.batcave.net";
-        $username = "3388117_escape";
-        $password = "matthew714";
-        $db = "3388117_escape";
+        $servername = "localhost";
+        $username = "xdcmtpdg_escape";
+        $password = "y2%lN97£D8yO";
+        $db = "xdcmtpdg_escape";
         $conn = new mysqli($servername, $username, $password, $db);
         
         // Check connection

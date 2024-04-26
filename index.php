@@ -41,9 +41,9 @@ if ($conn->connect_error) {
 
 <title>Escape Room Desde Casa</title>
 <meta name="description" content="Juegos de escape virtuales" />
-<script src="https://kit.fontawesome.com/8e8842163b.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link href="css/main.css" rel="stylesheet"><script>
 
 
@@ -101,8 +101,8 @@ $( document ).ready(function() {
   </header>
   <nav class="">
         <div class="container text-right">
-                <a class="btn navbtn" href="https://escapedesdecasa.125mb.com"><i class="fas fa-home"></i></a>
-                <a class="btn navbtn" href="https://escapedesdecasa.125mb.com/contacto.php"><i class="far fa-envelope"></i></a>
+                <a class="btn navbtn" href="https://abiramirez.dev/escapegames/"><i class="fas fa-home"></i></a>
+                <a class="btn navbtn" href="https://abiramirez.dev/escapegames/contacto.php"><i class="far fa-envelope"></i></a>
                 <a class="btn navbtn" href="https://www.instagram.com/escapedesdecasa/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
   </nav>

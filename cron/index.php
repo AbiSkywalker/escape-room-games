@@ -135,7 +135,7 @@ $( document ).ready(function() {
                         </button>
                       </div>
                       <div class="modal-body text-left text-white">
-                      <?=include ("mensaje_inicial.html");?>
+                      <?=include ("mensaje_inicial.php");?>
                       </div>
                     </div>
                   </div>

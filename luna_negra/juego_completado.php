@@ -41,13 +41,13 @@ while ($query->fetch()){
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
-<script src="https://kit.fontawesome.com/8e8842163b.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 <link rel="stylesheet" href="css/main.css"/>
 
 <!--link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /--> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link href="../assets/cool-share/plugin.css" media="all" rel="stylesheet" /> 
 <link href="../css/main.css" media="all" rel="stylesheet" /> 
 <script src="../js/ajax_valoraciones.js"></script>
@@ -168,7 +168,7 @@ while ($query->fetch()){
 <script src="../assets/cool-share/plugin.js"></script>
 
 <script>
-var url = 'https://www.escapedesdecasa.125mb.com';
+var url = 'https://abiramirez.dev/escapegames';
 
 var options = {
 

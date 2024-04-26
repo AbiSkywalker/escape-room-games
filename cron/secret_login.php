@@ -1,5 +1,4 @@
 <?php
-
  //ECHAR SI NO HAY SESION
  session_start();
  if (!isset($_SESSION['session_id']) || $_SESSION['session_id'] == ''){
@@ -55,7 +54,7 @@ $( document ).ready(function() {
         if (isAdvancedUpload) {
           $form.addClass('has-advanced-upload');
          
-          var droppedFiles = false;
+          /*var droppedFiles = false;
           var droppedUrl = false;
           
           $form.on('drag dragstart dragend dragover dragenter dragleave drop', function(e) {
@@ -78,7 +77,7 @@ $( document ).ready(function() {
             console.log("Dropped URL "+droppedUrl);
             console.log("Dropped files "+droppedFiles);
             $form.trigger('submit');
-          });
+          });*/
           
           $input.on('change', function(e) { // when drag & drop is NOT supported
               $form.trigger('submit');
@@ -93,10 +92,11 @@ $( document ).ready(function() {
                   if (isAdvancedUpload) {
                          
                             // ajax for modern browsers
-                            e.preventDefault();
+                          e.preventDefault();
+                          
 
                           var ajaxData = new FormData($form.get(0));
-                          console.log(droppedFiles);
+                          /*console.log(droppedFiles);
                           console.log(droppedUrl);
                           if (droppedFiles) {
                             $.each( droppedFiles, function(i, file) {
@@ -104,7 +104,7 @@ $( document ).ready(function() {
                             });
                           } else if (droppedUrl){
                               ajaxData.append($input.attr('name'), droppedUrl);
-                          }
+                          }*/
                         
                           $.ajax({
                             url: $form.attr('action'),
@@ -115,11 +115,12 @@ $( document ).ready(function() {
                             contentType: false,
                             processData: false,
                             complete: function(data) {
-                              console.log(data);
+                              console.log("complete");
+                              console.log(ajaxData);
                               $form.removeClass('is-uploading');
                             },
                             success: function(data) {
-                              console.log(data);
+                              console.log("success", data);
                               $form.addClass( data.success == true ? 'is-success' : 'is-error' );
                               if (!data.success){ 
                                       $('#box__msg').text("Acceso denegado");
@@ -131,7 +132,7 @@ $( document ).ready(function() {
                               }
                             },
                             error: function(xhr, ajaxOptions, thrownError) {
-                            
+                              console.log("error", xhr);
                             }
                           });
                     
